@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+
+.padre{
+    display: flex;
+}
+.img{
+    max-width: 100%;
+    width: 100%;
+    max-height: 400px;
+    display: block;
+    margin-top: 100px;
+    
+}
+.in-flex{
+    flex: 1;
+    padding: 25px;
+        
+}
+
+.hijo{
+    flex-direction:column;
+    margin-top: 100px;
+    padding: 50px;
+    flex: 2;
+    
+}
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+}
+.p{
+    font-family: 'Creepster', cursive;;
+}
+
+
+.btn{
+    justify-self:flex-end;
+    background-color: rgb(94, 87, 87);
+    color: rgb(255, 255, 255);
+    box-shadow: blanchedalmond;
+    size: 20px;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 10px;
+}
